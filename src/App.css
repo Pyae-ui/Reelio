@@ -1,0 +1,86 @@
+/* Global Reset & Base Theme */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #090a0f;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  overflow: hidden;
+}
+
+/* App Layout Container */
+.app-layout {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* Main Viewport (Right side scrollable area) */
+.main-viewport {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+  background: #090a0f;
+}
+
+/* Content Area Padding */
+.content-area {
+  flex: 1;
+  padding: 30px 40px 60px 40px;
+  box-sizing: border-box;
+}
+
+/* Dashboard Views */
+.dashboard-view {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Common Section Styling */
+.content-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.content-section h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+
+.placeholder-text, .loading-text {
+  color: #a1a1aa;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Scrollbar styling for a sleek dark theme look */
+.main-viewport::-webkit-scrollbar {
+  width: 8px;
+}
+
+.main-viewport::-webkit-scrollbar-track {
+  background: #090a0f;
+}
+
+.main-viewport::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 4px;
+}
+
+.main-viewport::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}

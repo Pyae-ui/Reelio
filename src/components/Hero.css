@@ -1,0 +1,141 @@
+.hero {
+  min-height: 680px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.hero-background {
+  position: absolute;
+  inset: 0;
+
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(15, 15, 15, 1) 0%,
+      rgba(15, 15, 15, 0.85) 35%,
+      rgba(15, 15, 15, 0.35) 70%,
+      rgba(15, 15, 15, 0.75) 100%
+    ),
+    linear-gradient(
+      0deg,
+      #0f0f0f 0%,
+      transparent 35%
+    ),
+    url('https://image.tmdb.org/t/p/original/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg');
+
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+
+  width: min(1200px, 92%);
+  margin: 0 auto;
+  padding: 120px 0 80px;
+}
+
+.hero-label {
+  margin-bottom: 14px;
+
+  color: #38bdf8;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.hero h1 {
+  margin-bottom: 14px;
+
+  font-size: clamp(52px, 8vw, 92px);
+  line-height: 0.95;
+  letter-spacing: -4px;
+}
+
+.hero-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-bottom: 22px;
+
+  color: #d4d4d4;
+  font-size: 15px;
+}
+
+.rating {
+  color: #facc15;
+}
+
+.hero-description {
+  max-width: 540px;
+
+  margin-bottom: 30px;
+
+  color: #b5b5b5;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.primary-button,
+.secondary-button {
+  border: none;
+  border-radius: 8px;
+
+  padding: 13px 20px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.primary-button {
+  background: #ffffff;
+  color: #111111;
+}
+
+.primary-button:hover {
+  transform: translateY(-2px);
+  background: #e5e5e5;
+}
+
+.secondary-button {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+}
+
+.secondary-button:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.14);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 620px;
+  }
+
+  .hero-content {
+    padding-bottom: 60px;
+  }
+
+  .hero h1 {
+    letter-spacing: -2px;
+  }
+
+  .hero-description {
+    font-size: 15px;
+  }
+}

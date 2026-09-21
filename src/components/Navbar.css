@@ -1,0 +1,69 @@
+.navbar-search-form {
+  position: relative;
+}
+
+.navbar-search-input {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 13px;
+  outline: none;
+  width: 220px;
+  transition: all 0.2s;
+}
+
+.navbar-search-input:focus {
+  border-color: #6366f1;
+  background: rgba(255, 255, 255, 0.12);
+  width: 260px;
+}
+
+.search-suggestions-dropdown {
+  position: absolute;
+  top: 42px;
+  right: 0;
+  width: 260px;
+  background: #14161d;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-suggestion-item {
+  padding: 10px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #e5e7eb;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background 0.15s;
+}
+
+.search-suggestion-item:last-child {
+  border-bottom: none;
+}
+
+.search-suggestion-item:hover {
+  background: rgba(99, 102, 241, 0.2);
+  color: #fff;
+}
+
+.suggestion-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 180px;
+}
+
+.suggestion-year {
+  color: #9ca3af;
+  font-size: 12px;
+}
