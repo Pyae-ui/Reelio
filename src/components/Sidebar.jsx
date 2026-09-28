@@ -5,7 +5,7 @@ function Sidebar() {
   return (
     <aside className="sidebar">
       <div className="sidebar-brand">
-        <span className="brand-dot"></span>
+        <span className="movie-logo" aria-hidden="true">🎬</span>
         <span className="brand-name">REELIO</span>
       </div>
 

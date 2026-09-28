@@ -20,12 +20,23 @@
   padding-left: 6px;
 }
 
-.brand-dot {
-  width: 10px;
-  height: 10px;
-  background: #38bdf8;
-  border-radius: 50%;
-  box-shadow: 0 0 12px rgba(56, 189, 248, 0.6);
+.movie-logo {
+  font-size: 22px;
+  line-height: 1;
+  filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.6));
+  display: inline-block;
+  animation: logo-pulse 1.8s ease-in-out infinite;
+}
+
+@keyframes logo-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.18);
+  }
 }
 
 .brand-name {

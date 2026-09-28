@@ -2,6 +2,10 @@
 
 Reelio is a modern movie and TV discovery app built with React and Vite. It lets users browse trending, popular, and genre-based media, search for titles, and save favorites to a personal watchlist.
 
+## Preview
+
+![Reelio website preview](public/screenshots/Screenshot%202026-09-25%20225328.png)
+
 ## Features
 
 - Trending and popular movie/TV browsing
@@ -28,9 +32,7 @@ Live demo: https://reelio-lime.vercel.app/
 
 ## Screenshots
 
-![Reelio homepage](public/screenshots/Screenshot%202026-09-25%20225328.png)
-
-![Reelio search and browsing view](public/screenshots/Screenshot%202026-09-25%20225409.png)
+![Reelio search and browsing view](public/screenshots/Screenshot%202026-09-28%20135944.png)
 
 ![Reelio detail modal](public/screenshots/Screenshot%202026-09-25%20225456.png)
 
