@@ -32,8 +32,6 @@ Live demo: https://reelio-lime.vercel.app/
 
 ## Screenshots
 
-![Reelio homepage](public/screenshots/Screenshot%202026-09-25%20225328.png)
-
 ![Reelio detail modal](public/screenshots/Screenshot%202026-09-25%20225456.png)
 
 ![Reelio watchlist view](public/screenshots/Screenshot%202026-09-25%20225526.png)
@@ -107,6 +105,8 @@ This project was built to showcase frontend development skills in a real-world U
 
 This project is open source and available under the MIT License.
 
-## Author
+## Feedback
 
-Pyae Sone Tun
+If you have any feedback, please reach out to me at
+
+affablepyaesonehtun@gmail.com
