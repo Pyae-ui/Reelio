@@ -4,7 +4,7 @@ Reelio is a modern movie and TV discovery app built with React and Vite. It lets
 
 ## Preview
 
-![Reelio website preview](public/screenshots/Screenshot%202026-09-25%20225328.png)
+![Reelio website preview](public/screenshots/Screenshot%202026-09-28%20135944.png)
 
 ## Features
 
@@ -32,7 +32,7 @@ Live demo: https://reelio-lime.vercel.app/
 
 ## Screenshots
 
-![Reelio search and browsing view](public/screenshots/Screenshot%202026-09-28%20135944.png)
+![Reelio homepage](public/screenshots/Screenshot%202026-09-25%20225328.png)
 
 ![Reelio detail modal](public/screenshots/Screenshot%202026-09-25%20225456.png)
 
