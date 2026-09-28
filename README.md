@@ -32,9 +32,9 @@ Live demo: https://reelio-lime.vercel.app/
 
 ## Screenshots
 
-![Reelio detail modal](public/screenshots/Screenshot%2026-09-28%170347.png)
+![Reelio detail modal](public/screenshots/Screenshot%2026-09-28%20170347.png)
 
-![Reelio watchlist view](public/screenshots/Screenshot%2026-09-28%170545.png)
+![Reelio watchlist view](public/screenshots/Screenshot%2026-09-28%20170545.png)
 
 ## Getting Started
 
